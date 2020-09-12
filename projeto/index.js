@@ -10,6 +10,7 @@ const { produtos } = db
 
 produtos.sort((a, b) => a.preco - b.preco)
 
+// Código gigante para a minha data e hora não ficarem desconfiguradas :)
 const hoje = new Date()
 const dia = hoje.getDate()
 const mes = hoje.getMonth()
